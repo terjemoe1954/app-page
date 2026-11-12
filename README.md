@@ -25,3 +25,15 @@ Assuming the repository is named `app-pages`:
 - `/app-pages/lexwriter/terms/`
 
 Note: These templates are practical starting points and are not legal advice.
+
+
+## Quizkrutt – iOS beta 0.5.0
+
+- App: https://terjemoe1954.github.io/app-page/quizkrutt/
+- Support: https://terjemoe1954.github.io/app-page/quizkrutt/support/
+- Personvern: https://terjemoe1954.github.io/app-page/quizkrutt/privacy/
+
+The first beta is offline: solo, bundled packs and pass-and-play sofa duels.
+Online duels are not active. Support contact: terjemoe54@hotmail.com.
+The app's current build 6 uses the already published ChatGPT Sites support/privacy
+URLs. Keep those URLs live until a future build deliberately switches to GitHub Pages.

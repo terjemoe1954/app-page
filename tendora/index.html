@@ -1,31 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Tendora">
-  <title>Tendora</title>
-  <link rel="stylesheet" href="../assets/styles.css">
+  <meta name="description" content="Samle kvitteringer og husk neste vedlikehold med Tendora. Hold orden på dokumenter, oppgaver og historikk for bolig, hytte og båt.">
+  <meta name="theme-color" content="#173f35">
+  <title>Tendora – kvitteringer og vedlikehold på ett sted</title>
+  <style>
+    :root{color-scheme:light;--bg:#f6f7f3;--ink:#203b32;--muted:#53645b;--line:#dce3db;--green:#173f35;--soft:#e9efe4}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}a{color:var(--green);text-underline-offset:4px}a:focus-visible{outline:3px solid #b16a1f;outline-offset:5px}main{max-width:1100px;margin:auto;padding:24px 24px 40px}header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:38px}.brand{font-size:1.5rem;font-weight:800;text-decoration:none;letter-spacing:-.04em}header a:last-child{font-size:.95rem;padding:10px 0}.hero{display:grid;grid-template-columns:1.15fr 1fr;gap:48px;align-items:center;padding:30px 0 60px}.eyebrow{font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;font-weight:750;color:var(--muted)}h1{font-size:clamp(2.4rem,5vw,3.8rem);line-height:1.08;letter-spacing:-.045em;margin:16px 0 24px;text-wrap:balance}h2{font-size:clamp(1.65rem,3vw,2.2rem);line-height:1.2;letter-spacing:-.025em;margin:0 0 18px}h3{font-size:1.12rem;line-height:1.35;margin:14px 0 10px}p{margin:0 0 18px}.intro{font-size:1.15rem;color:var(--muted);max-width:34rem}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;background:var(--green);color:white;padding:12px 22px;border-radius:12px;font-weight:700;text-decoration:none}.button:hover{background:#245847}.secondary{display:inline-block;margin-left:16px;padding:12px 0}.small{font-size:.88rem;color:var(--muted);margin:12px 0 0}.example{background:white;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 16px 40px #173f350a}.example h2{font-size:1.6rem;margin-top:8px}.example-label{font-size:.78rem;font-weight:700;color:var(--muted);margin-bottom:18px}.record{border-top:1px solid var(--line);padding:18px 0;display:grid;grid-template-columns:38px 1fr;gap:12px}.record:last-child{padding-bottom:0}.icon{width:36px;height:36px;background:var(--soft);border-radius:10px;display:grid;place-items:center;font-weight:700}.record strong{display:block}.record p{font-size:.94rem;color:var(--muted);margin:4px 0 0}.tag{display:inline-block;background:var(--soft);color:var(--green);font-size:.8rem;font-weight:650;border-radius:6px;padding:3px 8px;margin-top:8px}.section{padding:44px 0;border-top:1px solid var(--line);scroll-margin-top:24px}.section-intro{color:var(--muted);max-width:42rem}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:0;list-style:none;margin:28px 0 0}.number{display:inline-grid;place-items:center;width:34px;height:34px;background:var(--soft);border-radius:50%;font-size:.9rem;font-weight:750}.steps p{color:var(--muted);margin-bottom:0}.uses{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}.uses span{background:white;border:1px solid var(--line);padding:8px 14px;border-radius:30px}.closing{background:var(--soft);border-radius:20px;padding:32px;margin:10px 0 36px}.closing p{color:var(--muted)}footer{border-top:1px solid var(--line);padding-top:24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px;color:var(--muted);font-size:.9rem}footer nav{display:flex;flex-wrap:wrap;gap:20px}footer p{margin:0}@media(max-width:720px){main{padding:20px}header{margin-bottom:14px}.hero{grid-template-columns:1fr;gap:30px;padding:20px 0 38px}h1{max-width:15ch}.steps{grid-template-columns:1fr;gap:24px}.example{padding:22px}.section{padding:32px 0}.closing{padding:24px}.secondary{margin-left:12px}footer{display:block}footer nav{margin-top:16px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
 </head>
 <body>
-  <main class="container">
-    
-<header>
-  <a class="brand" href="../">App Pages</a>
-</header>
-<section class="hero">
-  <p class="muted">Official app page</p>
-  <h1>Tendora</h1>
-  <p>Home assets and maintenance, organized.</p>
-  <p>Tendora helps you keep track of home assets, maintenance tasks, important dates, and useful property information.</p>
-</section>
-<section class="grid">
-  <article class="card"><h3>Privacy Policy</h3><p>How information is handled.</p><a href="privacy/">Read Privacy Policy</a></article>
-  <article class="card"><h3>Support</h3><p>Help and contact information.</p><a href="support/">Get Support</a></article>
-  <article class="card"><h3>Terms of Use</h3><p>Important terms and limitations.</p><a href="terms/">Read Terms</a></article>
-</section>
-<footer><p>© 2026 Tendora. All rights reserved.</p></footer>
-
-  </main>
+<main>
+  <header><a class="brand" href="./" aria-label="Tendora – forsiden">Tendora</a><a href="support/">Hjelp og kontakt</a></header>
+  <section class="hero" aria-labelledby="hero-title">
+    <div>
+      <p class="eyebrow">For bolig, hytte og båt</p>
+      <h1 id="hero-title">Samle kvitteringer og husk neste vedlikehold.</h1>
+      <p class="intro">Hvor er kvitteringen, og når gjorde du det sist? Med Tendora samler du dokumentene på det du eier og setter påminnelser om det som skal gjøres.</p>
+      <a class="button" href="https://apps.apple.com/no/app/tendora/id6804948784">Hent Tendora i App Store</a>
+      <a class="secondary" href="#slik-fungerer-det">Se hvordan</a>
+      <p class="small">For iPhone og iPad.</p>
+    </div>
+    <aside class="example" aria-label="Eksempel på hva du kan samle i Tendora">
+      <p class="example-label">ILLUSTRERT EKSEMPEL · FRA HVERDAGEN</p>
+      <p class="eyebrow">Hjemme</p>
+      <h2>Ventilasjonsanlegget</h2>
+      <div class="record"><span class="icon" aria-hidden="true">↗</span><div><strong>Kvitteringen samlet</strong><p>Legg kvitteringen for det nye filteret sammen med dokumentene til anlegget.</p><span class="tag">Lett å finne igjen</span></div></div>
+      <div class="record"><span class="icon" aria-hidden="true">✓</span><div><strong>Filterbyttet i historikken</strong><p>Hold oversikt over hva som er gjort, og når.</p></div></div>
+      <div class="record"><span class="icon" aria-hidden="true">↻</span><div><strong>Husk neste filterbytte</strong><p>Velg neste frist og sett en påminnelse.</p><span class="tag">Neste oppgave på plass</span></div></div>
+    </aside>
+  </section>
+  <section class="section" id="slik-fungerer-det" aria-labelledby="steps-title">
+    <h2 id="steps-title">Fra kvittering til neste vedlikehold</h2>
+    <p class="section-intro">Begynn med én ting du vil holde orden på. Et ventilasjonsanlegg hjemme, en varmepumpe på hytta eller motoren i båten.</p>
+    <ol class="steps">
+      <li><span class="number" aria-hidden="true">1</span><h3>Legg til det du eier</h3><p>Gi eiendelen et navn, så har kvitteringer, oppgaver og historikk et fast sted.</p></li>
+      <li><span class="number" aria-hidden="true">2</span><h3>Samle kvitteringer og dokumenter</h3><p>Knytt kvitteringer, bilder, garantier og manualer til riktig eiendel.</p></li>
+      <li><span class="number" aria-hidden="true">3</span><h3>Sett neste vedlikehold</h3><p>Opprett en oppgave med frist og påminnelse. Se kommende oppgaver i kalenderen.</p></li>
+    </ol>
+  </section>
+  <section class="section" aria-labelledby="uses-title">
+    <h2 id="uses-title">Mindre å huske. Enklere å finne igjen.</h2>
+    <p class="section-intro">Når noe skal vedlikeholdes, eller du trenger en gammel kvittering, har du dokumenter og vedlikeholdshistorikk samlet på ett sted.</p>
+    <div class="uses" aria-label="Eksempler på bruksområder"><span>Bolig · ventilasjon og utstyr</span><span>Hytte · varmepumpe og vedlikehold</span><span>Båt · motor og service</span></div>
+  </section>
+  <section class="closing" aria-labelledby="start-title">
+    <h2 id="start-title">Start med én kvittering og én påminnelse.</h2>
+    <p>Velg noe du allerede eier, og gjør neste vedlikehold litt enklere å huske.</p>
+    <a class="button" href="https://apps.apple.com/no/app/tendora/id6804948784">Hent Tendora i App Store</a>
+  </section>
+  <footer><p>© 2026 Tendora</p><nav aria-label="Informasjon og hjelp"><a href="privacy/">Personvern</a><a href="support/">Hjelp og kontakt</a><a href="terms/">Vilkår</a><a href="../">Alle appene</a></nav></footer>
+</main>
 </body>
 </html>
